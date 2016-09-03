@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Bu söylediğini anlamadım :(`).then(() => 'speak');
+                    return bot.say(`Bu söylediğini anlamadım :(. Ama istersen bağlan yazarak gerçek bir insana bağlanabilirsin.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
